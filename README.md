@@ -11,6 +11,11 @@ To reproduce:
 4. Restart VisualStudio
 5. Build => OK
 
+## Links
+
+* [NuGet tracker](https://nuget.codeplex.com/workitem/4187)
+* [WebSharper tracker](https://bitbucket.org/IntelliFactory/websharper/issue/81/nuget-build-without-committing-packages)
+
 ## Rationale
 
 Suppose we created a NuGet package (BuildPack) with `build/*.targets`. The intent is to
