@@ -5,10 +5,12 @@ namespace Lib
 {
     public class Class1
     {
-        public static void Foo()
+        public static bool Foo()
         {
-            XmlAttribute a = null;
-            a.Clone();
+            var foo = new Lib0.Class1();
+            Lib0.Class1 a = null;
+            Lib0.Class1 b = null;
+            return a == b;
         }
     }
 }

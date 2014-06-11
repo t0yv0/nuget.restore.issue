@@ -1,5 +1,7 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Reference Include="System.Xml" />
-  </ItemGroup>
+  <Target Name="AddRefs" AfterTargets="ResolveAssemblyReferences">
+    <ItemGroup>
+      <ReferencePath Include="$(MSBuildProjectDirectory)/../libs/Lib0.dll" />
+    </ItemGroup>
+  </Target>
 </Project>
