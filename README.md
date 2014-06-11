@@ -7,9 +7,10 @@ To reproduce:
 
 1. Clone this project
 2. Open the solution in VisualStudio
-3. Build => fails
+3. Build => NuGet restore kicks in and restores packages
+4. Attempt to edit code => completion is broken
 4. Restart VisualStudio
-5. Build => OK
+5. Build => OK and now completion is OK
 
 ## Links
 
